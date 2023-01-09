@@ -10,7 +10,7 @@
 
 <body>
     <?php
-    class movie
+    class Movie
     {
         public $titolo;
         public $durata;
@@ -33,8 +33,8 @@
         }
     }
 
-    $film1 = new movie('Spiderman', 180 , 'Animazione');
-    $film2 = new movie('Top Gun', 200 , 'Azione');
+    $film1 = new Movie('Spiderman', 180 , 'Animazione');
+    $film2 = new Movie('Top Gun', 200 , 'Azione');
     var_dump($film1);
     var_dump($film2);
 
