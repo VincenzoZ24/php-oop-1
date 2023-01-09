@@ -31,6 +31,15 @@
             }
             return $durata;
         }
+        // public function setstring($titolo)
+        // {
+        //     if (is_string($titolo) ) {
+        //         $this->titolo = $titolo;
+                
+        //     }
+        //     return $titolo;
+            
+        // }
     }
 
     $film1 = new Movie('Spiderman', 180 , 'Animazione');
